@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #6366F1;     /* Indigo – modern and bold */
+  --color-secondary: #EC4899;   /* Pink – adds warmth and energy */
+  --color-accent: #FACC15;      /* Yellow – sharp highlight */
+  --color-bg: #FFFFFF;          /* Crisp white background */
+  --color-text: #111827;        /* Very dark gray for great contrast */
+}
+
+.text-secondary{
+  color: var(--color-secondary);
+}
+
+.text-accent{
+  color: var(--color-accent);
+}
