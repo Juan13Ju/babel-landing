@@ -1,1 +1,36 @@
-{}
+{
+    "CTAButton": "Únete a la lista de espera",
+    "hero": {
+      "tagline": "Mejorando cada día",
+      "title-1": "Aprende",
+      "title-2": "idiomas.",
+      "title-3": "Haz",
+      "title-4": "amigos.",
+      "title-5": "Al instante",
+      "subtext": "Elige tu idioma. Entra a videollamadas en vivo con personas de todo el mundo. Practica, ríe y mejora — cuando quieras, donde quieras.",
+      "subButton": "¡Sé de los primeros en conectarte!"
+    },
+    "features": {
+      "title": "Lo que nos hace diferentes",
+      "subtitle": "Nos enfocamos en conexiones reales, seguridad y libertad de idiomas — así es como lo logramos.",
+      "connection": {
+        "title": "Conexión instantánea",
+        "subtitle": "Sin horarios ni esperas. Elige tu idioma y empieza a chatear al instante."
+      },
+      "safe": {
+        "title": "Comunidad segura y respetuosa",
+        "subtitle": "Tolerancia cero. Nuestra moderación inteligente y sistema de reputación mantienen el ambiente positivo."
+      },
+      "speak": {
+        "title": "Habla los idiomas que amas",
+        "subtitle": "Selecciona todos los idiomas que hablas y aprendes — te conectaremos en base a ellos."
+      }
+    },
+    "CTA": {
+      "title": "Hecho para conectar de verdad",
+      "subtitle-1": "¡Hola! Soy Juan — un aprendiz de idiomas y desarrollador de software de México. Estoy creando esta app porque quería una forma segura, divertida e instantánea de hablar con personas reales en todo el mundo.",
+      "subtitle-2": "Si eso suena como algo que usarías, me encantaría que formaras parte de la beta.",
+      "button-subtitle": "Sin spam. Solo actualizaciones de lanzamiento."
+    }
+  }
+  

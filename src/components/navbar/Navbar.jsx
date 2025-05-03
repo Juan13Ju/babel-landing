@@ -1,31 +1,38 @@
-import './navbar.css'
+import './navbar.css';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
-  return <>
-  <nav className="navbar navbar-expand-lg primary-background">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Logo</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link text-white" href="#">Features</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link text-white" href="#">Pricing</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link text-white" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  </>
-}
-export default Navbar
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
+  return (
+    <nav className="navbar navbar-expand-lg primary-background px-4">
+      <div className="container-fluid d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+          <img src="/logo192.png" alt="Logo" style={{ height: '32px', marginRight: '8px' }} />
+          <span className="navbar-brand mb-0 h1 text-white">LangLink</span>
+        </div>
+
+        <div className="d-flex">
+          <button
+            className="btn btn-outline-light btn-sm me-2"
+            onClick={() => changeLanguage('en')}
+          >
+            EN
+          </button>
+          <button
+            className="btn btn-outline-light btn-sm"
+            onClick={() => changeLanguage('es')}
+          >
+            ES
+          </button>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

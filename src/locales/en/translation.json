@@ -1,5 +1,35 @@
 {
+    "CTAButton" : "Join the waitlist",
     "hero" : {
-        "tagline" : "Better everyday"
+        "tagline" : "Better everyday",
+        "title-1" : "Learn",
+        "title-2" : "languages.",
+        "title-3" : "Make",
+        "title-4" : "friends.",
+        "title-5" : "Instantly",
+        "subtext" : "Choose your language. Hop into live video video chats with people around the world. Practice, laugh and improve together - anytime, anywhere.",
+        "subButton" : "Be among the first to connect!"
+    },
+    "features" : {
+        "title" : "What Makes Us Different",
+        "subtitle" : "We focus on real connections, safety, and language freedom — here’s how.",
+        "connection" : {
+            "title": "Instant Connection",
+            "subtitle" : "No schedules, no waiting. Choose your language and start chatting right away."
+        },
+        "safe" : {
+            "title": "Safe & Respectful Community",
+            "subtitle" : "Zero tolerance. Our smart moderation and ranking system keep things kind."
+        },
+        "speak" : {
+            "title": "Speak the Languages You Love",
+            "subtitle" : "Select all the languages you speak and learn — we’ll match you accordingly."
+        }
+    },
+    "CTA" : {
+        "title" : "Built for real connection",
+        "subtitle-1" : "Hey! I’m Juan — a language learner and software developer from Mexico. I'm building this app because I wanted a safe, fun, and instant way to speak with real people around the world.",
+        "subtitle-2" : "If that sounds like something you'd use, I’d love for you to be part of the beta.",
+        "button-subtitle" : "No spam. Just launch updates."
     }
 }

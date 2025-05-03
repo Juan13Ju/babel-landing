@@ -13,17 +13,16 @@ const Hero = () => {
                     {t('hero.tagline')}
                 </span>
                 <h3 className="text-4xl md:text-6xl font-semibold">
-                    <span className="color-secondary">Learn</span> languages. <span className="color-secondary">Make</span> friends. <span className="color-secondary">Instantly</span>.
+                    <span className="color-secondary">{t('hero.title-1')}</span> {t('hero.title-2')} <span className="color-secondary">{t('hero.title-3')}</span> {t('hero.title-4')} <span className="color-secondary">{t('hero.title-5')}</span>.
                 </h3>
                 <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-                    Choose your language. Hop into live video video chats with people around the world. Practice, laugh and improve
-                    together - anytime, anywhere.
+                    {t('hero.subtext')}
                 </p>
                 <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
-                    Join the waitlist
+                    {t('CTAButton')}
                 </button>
                 <p className="text-sm text-slate-500 mt-2">
-                    Be among the first to connect!
+                {t('hero.subButton')}
                 </p>
 
             </div>
