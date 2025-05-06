@@ -16,7 +16,7 @@ function App() {
         <section className="bg-gray-50 py-20">
           <FeatureSection/>
         </section>
-        <section>
+        <section id='form-section'>
           <CTASection />
         </section>
       </div>

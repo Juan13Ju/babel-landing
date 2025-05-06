@@ -5,7 +5,11 @@ import { useTranslation } from "react-i18next";
 
 const Hero = () => {
 
-    const {t} = useTranslation()
+    const {t} = useTranslation();
+
+    const scrollToForm = () => {
+        document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' });
+      };
     return (
         <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
             <div>
@@ -18,7 +22,10 @@ const Hero = () => {
                 <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
                     {t('hero.subtext')}
                 </p>
-                <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
+                <button 
+                className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95"
+                onClick={scrollToForm}
+                >
                     {t('CTAButton')}
                 </button>
                 <p className="text-sm text-slate-500 mt-2">
