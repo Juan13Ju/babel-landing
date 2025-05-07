@@ -31,6 +31,10 @@
       "subtitle-1": "¡Hola! Soy Juan — un aprendiz de idiomas y desarrollador de software de México. Estoy creando esta app porque quería una forma segura, divertida e instantánea de hablar con personas reales en todo el mundo.",
       "subtitle-2": "Si eso suena como algo que usarías, me encantaría que formaras parte de la beta.",
       "button-subtitle": "Sin spam. Solo actualizaciones de lanzamiento."
+    },
+    "Footer" :  {
+        "main" : "Hecho con amor para los amantes de los lenguajes. Unete a nuestra comunidad:",
+        "button" : "Unete al discord"
     }
   }
   
