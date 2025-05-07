@@ -35,5 +35,9 @@
     "Footer" :  {
         "main" : "Made with love for language lovers. Join our community:",
         "button" : "Join Discord"
+    },
+    "Error" : {
+        "emailValidation" : "Please enter a valid email address.",
+        "unexpectedError" : "❌ Something went wrong. Please try again later."
     }
 }
